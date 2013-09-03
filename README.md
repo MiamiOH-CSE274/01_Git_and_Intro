@@ -28,6 +28,12 @@ Read only the following:
   * Object store pictures
   * Git concepts at work (read all)
 4. Chapter 21: Git and Github
+  * Repo for Public Code
+  * Creating a GitHub Repository
+  * Forks
+  * Creating Pull Requests
+  * Managing Pull Requests
+  * Coding Models
 
 **Open Data Structures in C++**. Morin. 
 
