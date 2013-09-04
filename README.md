@@ -1,3 +1,6 @@
+Author
+==========
+"Proctor, Patrick", proctopj
 01_Git_and_Intro
 ================
 
