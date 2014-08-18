@@ -32,13 +32,13 @@ Read only the following:
   * Managing Pull Requests
   * Coding Models
 
-**Open Data Structures in C++**. Morin. 
+**Open Data Structures in C++**. Morin, edition 0.1G-beta
 
 http://opendatastructures.org/ (Free access. I recommend downloading the PDF version.)
 
 Read the following:
 
-1. Chapter 1 (pp. 1-20)
+1. Chapter 1 (pp. 1-21)
 
 Homework
 ========
@@ -64,7 +64,7 @@ Exercises
 
 [Your answer here]
 
-#### 3. Morin, Exercise 1.1 (p. 23). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
+#### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
 [Your answer here]
 
