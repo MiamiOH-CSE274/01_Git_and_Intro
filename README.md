@@ -66,7 +66,23 @@ In this case, as long as I had my repo on github I could clone it to my computer
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1.1 I would use a LIFO queue (Stack). I would push in the data, and then pop it out through the use of a loop. Since the last bit of data pushed in is what we want to print first, the LIFO approach would be the best choice.  
+
+1.2 I would again use a LIFO queue stack type process. However, I would have a counter that once it reached 50, would print out the data using the LIFO approach (so the last bit of data would be printed first) before continuing to push more data into the queue. The remaining lines would also be taken care of with this method. 
+
+1.3 I would use a FIFO queue for this problem. I would first read in 42 lines of data through a loop. I would then read in the next line and check if it was blank. If it was blank I could replace it with the first line in the queue. If it wasn't blank I could remove the first line from the queue and add the line we just checked to the end. A FIFO queue would be useful because we're progressing through the data whilst maintaining a way to replace blank lines. 
+
+1.4 I would use a USet for this problem. I would add the lines to the USet one line at a time. Because USets do not allow duplicates, only the first occurrence of each line would be recorded. Optionally, I could have a boolean that was initialized as false, and when I used the add(x) function I could change the boolean to represent if the line failed to add because of duplicates. After all of the lines were read in I would print everything in the USet.
+
+1.5 For this I would also use a USet. I would start by inputing the first line into the USet. I would then input the second line and use the find(x) command on the USet to see if the line already exists in the USet. If it did exist already, the line would be printed. If it did not exist, it would be added. This process could be done with an if loop. 
+
+1.6 
+
+1.7
+
+1.8
+
+1.9
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
