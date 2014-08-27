@@ -62,7 +62,7 @@ I believe that it's okay to keep a clone of repo on a USB drive. However, this c
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+In this case, as long as I had my repo on github I could clone it to my computer and work on it there. If I didn't have at least some version of it on github, and only had it on my USB, then I messed up. 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
