@@ -62,7 +62,7 @@ Exercises
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-As long as you submitted the last revision on your USB to GitHub you can easily clone the revision from Github on to the computer in the lab and continue to work on it with your friends. 
+As long as you submitted the last revision on your USB to GitHub you can easily clone the revision from Github on to the computer in the lab and continue to work on it with your friends. None of your progress should be deterred. 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
@@ -76,8 +76,8 @@ Note: You should not need to write any real computer code for any of these. Inst
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - How a file is represented. Contraction of binary large object. Used to refer to a file that can contain any data whose internal structure is ignored by the program. 
+2. tree - Represents one level of directory information. Records blob identifiers, path names, a small amount of metadata for all files in a directory. 
+3. commit - Hold the metadata for each change introduced into the repo. Includes the author, committer, commit date, and log message. 
+4. repo - Short for repository. A database containing all the information/files needed to retain and manage the changes and history of a given project.  
+5. hash - 160-bit values represented as a 40-digit hexadecimal number. SHA1 or hash code. Each hash code is unique based on the contents of the file. 
