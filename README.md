@@ -76,9 +76,9 @@ In this case, as long as I had my repo on github I could clone it to my computer
 
 1.5 For this I would also use a USet. I would start by inputing the first line into the USet. I would then input the second line and use the find(x) command on the USet to see if the line already exists in the USet. If it did exist already, the line would be printed. If it did not exist, it would be added. This process could be done with an if loop. 
 
-1.6 
+1.6 I would use a SSet here because they represent a sorted set of elements. Duplicates would not be allowed since it is a set, and we could use the compare(x, y) function to create a sorted list. 
 
-1.7
+1.7 
 
 1.8
 
