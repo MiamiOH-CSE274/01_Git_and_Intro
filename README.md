@@ -58,11 +58,13 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Yes to both. Because Git is all about freedom. A repository also contains all history and revisions of the files as well as the files themselves and a copy of the repository itself, so there is no information lost by keeping just the repository in an isolated environment like the flash drive.
+** not sure about this answer? no mention in text
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+Clone your forked repo from Github onto the lab machine and proceed as normal.
+** also not sure about this one.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
