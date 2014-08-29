@@ -76,8 +76,8 @@ Note: You should not need to write any real computer code for any of these. Inst
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Blobs are any arbitrary binary data. 
+2. tree - A huge directory of paths (filled with information). It contains blobs, hashes, and commits.
+3. commit - The action that finalizes the changes you made in a document. This puts the changes in the repo file(s).
+4. repo - Contains the source code. You can take that source code and modify it, pushing it back to the repo (if you want). 
+5. hash - Writes a specified-type-object into a tree without modifying the files in the work tree. If the type isn't stated, the hash becomes a blob.
