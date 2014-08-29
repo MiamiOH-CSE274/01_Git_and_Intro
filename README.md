@@ -96,9 +96,10 @@ find(x) (x being a random number), print what we found, then remove the line fro
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
-
-[Your answer here]
+Because stacks have the last thing added on top, you can pop(x) and add(x) to the queue. Do this until you have emptied the stacks.
+Example: Stack== A F H E I M (<top of stack) (after popping and adding)  Queue==M I E H F A
+If you wanted the stack information reversed in a stack, you can just remove the first from the queue and push to the stack, so:
+Queue== M I E H F A. New stack after removing (right to left) of queue and pushing. Stack==M I E H F A
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
