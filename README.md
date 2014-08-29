@@ -58,15 +58,17 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+It is fine to keep your repo anywhere that makes it convenient to edit as long as it can be pushed back to the master branch to update the repo on GitHub.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You should use the version of the repo that you have either locally or on the GitHub server. Just pull the repo, edit it in the lab and push it back to the server.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. Use Stack because the stack structure puts all the files together and then takes them from the last sorted to the first sorted, giving reverse order for all the files.
+2. Use Stack with a loop for 50 lines so that the files read in and then write in reverse order, going 50 lines at a time before starting over.
+3. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
