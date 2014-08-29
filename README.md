@@ -116,14 +116,43 @@ clone your repo from the website its stored on (like github) to the machine you 
 	print each value in SSet
 
 7)
-	
+	while there are more lines to read
+	      read a line
+	      add the line to a List
+	sort the List by length
+	print each value in List
 
+8)
+	while there are more lines to read
+	      read a line
+	      add the line to a USet
+	for each member of USet
+	    if counter is even or counter is 0
+	       print value in USet
+	for each member of USet
+	    if counter is odd
+	       print value in USet
+
+9)
+	while there are more lines to read
+	      read a line
+	      add the line to a List
+	randomize the elements in the List
+	print the elements of the List
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+exercise 1.2
+
+initialize a sum variable to 0
+while there are values to pop
+      pop a value off the stack
+      add that value to the sum variable
+      if sum is < 0
+      	 not a dyck word
+is a dyck word
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
