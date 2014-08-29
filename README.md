@@ -67,14 +67,14 @@ clone your repo from the website its stored on (like github) to the machine you 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-1)   -while there are more lines to read
-       	   -read a line from the text 
-	   -push that string onto a Stack
-     -while there is data in the Stack
-       	   -pop data off the Stack
-  	   -write that string to stdout
+1   while there are more lines to read
+       	   read a line from the text 
+	   push that string onto a Stack
+     while there is data in the Stack
+       	   pop data off the Stack
+  	   write that string to stdout
 
-2)   while there are 50 more lines to read
+2   while there are 50 more lines to read
      	   read those 50 lines and push each string on a stack
 	   while there is data in the stack
        	   	 pop data off the Stack
