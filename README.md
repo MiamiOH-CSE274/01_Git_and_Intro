@@ -84,7 +84,40 @@ clone your repo from the website its stored on (like github) to the machine you 
 	   while there is data in the stack
        	   	 pop data off the Stack
 		 write that string to stdout
-     	 	            	
+
+3)
+	while there are more lines to read
+	      read a line
+	      push the line onto a queue
+	      if the size of the queue is >= 42
+	      	 remove the first entry in the queue
+	      	 if line read is blank
+		    print the line that was removed from the queue
+
+4)
+	while there are more lines to read
+	      read a line
+	      add the line to a USet
+	      if the line wasnt in the USet already
+	      	 print the line
+
+5)
+	while there are more lines to read
+	      read a line
+	      add the line to a USet
+	      if the line was in the USet already
+	      	 print the line
+
+6)
+	while there are more lines to read
+	      read a line
+	      add the line to a SSet
+	sort the SSet by length
+	print each value in SSet
+
+7)
+	
+
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
