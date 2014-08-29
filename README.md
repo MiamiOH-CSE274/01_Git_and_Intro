@@ -205,19 +205,19 @@ Note: You should not need to write any real computer code for any of these. Inst
 
 exercise 1.2
 
-initialize a sum variable to 0
+	initialize a sum variable to 0
 
-while there are values to pop
+	while there are values to pop
 
-	pop a value off the stack
+		pop a value off the stack
 
-	add that value to the sum variable
+		add that value to the sum variable
 
-	if sum is < 0
+		if sum is < 0
 
-	not a dyck word
+			not a dyck word
 
-is a dyck word
+	is a dyck word
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
