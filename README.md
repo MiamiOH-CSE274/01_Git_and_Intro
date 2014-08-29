@@ -58,26 +58,34 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+It is fine to keep your repo anywhere that makes it convenient to edit as long as it can be pushed back to the master branch to update the repo on GitHub.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You should use the version of the repo that you have either locally or on the GitHub server. Just pull the repo, edit it in the lab and push it back to the server.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. Use Stack because the stack structure puts all the files together and then takes them from the last sorted to the first sorted, giving reverse order for all the files.
+2. Use Stack with a loop for 50 lines so that the files read in and then write in reverse order, going 50 lines at a time before starting over.
+3. Use a FIFO Queue with a loop for 43 lines so that if, while reading, a line is blank, the program can access 42 lines before, but not store more than 43 lines.
+4. Use a LIFO Dequeue to make sure that while writing lines, the line is not already written, and if so can be skipped easily with an if statement.
+5. Use a Stack with an if statement to determine if there is an instance of the same line somewhere else in the stack before writing.
+6. Use an SSet, since it is already sorted and would be very easy to simply read in and then output the data with an if statement to deal with duplicate lines.
+7. Use an SSet without the if statement and let duplicates be printed multiple times in the output.
+8. Use a FIFO Queue with a loop that allows you to go through even lines and then start over with another loop to output the remaining lines.
+9. Use a USet, since it is unordered, it will print the data back in a random order and remain unsorted.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+Dyck words are similar to the push(x) and pop relationship such that pop is almost like a negative since it removes an element and push(x) adds an element. The concept of staying zero or positive also applies to a stack in that you cannot have a stack with a negative number of elements.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - A binary large object. Represents some type of variable or file in the program whose actual structure can be ignored.
+2. tree - A directory of information on a single level, a file of blob identifiers and paths to files in a single directory.
+3. commit - Metadata for a change to a repository, includes author, date, message, and committer.
+4. repo - A database that contains information to allow one to modify or maintain the status of a project, contains the complete copy and history of the project.
+5. hash - A value that gives identity to the contents of a certain file, usually a 40 digit hexadecimal number. Any change  to the file causes this value to change.
