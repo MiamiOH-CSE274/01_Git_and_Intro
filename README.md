@@ -78,22 +78,22 @@ In this case, as long as I had my repo on github I could clone it to my computer
 
 1.6 I would use a SSet here because they represent a sorted set of elements. Duplicates would not be allowed since it is a set, and we could use the compare(x, y) function to create a sorted list. 
 
-1.7 
+1.7 I would use a priority queue here. The smallest elements would be removed first and duplicates would be allowed. 
 
-1.8
+1.8 I would use a loop of some sort here with a list. The list would hold the elements and I could loop through it and print out the even numbers followed by the odd numbers. 
 
-1.9
+1.9 I would again use a list, and some random number generator to randomly pick a line to output.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+A dyck +1 is similar to the stack push(x) option. Both add one 'thing' to their object, being either a dyck word or a queue. The connection between a -1 and a the pop() function is very similar. The -1 removes one value from dyck word and pop removes an element from the queue. 
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - A binary large object is a large amount of data that doesn't contain or store any structure. 
+2. tree - A treee is one level of information inside of a blob. 
+3. commit - A commit holds information about what kinds of changes were made in a repository. 
+4. repo - A repository is a place where all the build information is held that is necessary to work on a project.
+5. hash - A hash in a unique representation of a file's id.
