@@ -85,8 +85,8 @@ If the repo was pushed at the end of the last work session cloning it to the new
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - A blob is a collection of data and is a part of a repo.
+2. tree - a tree is the organization of file changes as different commits are made.
+3. commit - a commit is an upload of changes to a file to github.
+4. repo - a repo is a repository that contains all files needed to run a program.
+5. hash - a hash is an 40 character identifying signiture for a file in the github system.
