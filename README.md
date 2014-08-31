@@ -63,7 +63,7 @@ The M: drive works the same way as a flashdrive in this sense because it is the 
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+If the repo was pushed at the end of the last work session cloning it to the new machine would work fine to solve this problem.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
