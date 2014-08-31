@@ -67,7 +67,15 @@ If the repo was pushed at the end of the last work session cloning it to the new
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1.Write to a stack and then pop them off of the stack.
+2.loop to write to a stack 50 times then pop 50 times, repeat until finished.
+3.make a queue with no more than 43 lines in it and if the most recent addition is blank output the oldest line, if it isnt, just remove the oldest line. 
+4.Use an SSet and write the first line, look at the second line, if it equals any previous line, skip it, if it doesnt output it and then add it to the sset.
+5.Use an SSet and write the first line, look at the second line, if it equals a previous line, output it, else, write it to the SSet.
+6.write the first line to a list, read the next line and compare lengths until its proper position is found, compare the current line to all lines of the same length, if it is the same as any of them, skip it, else, write it to the list.
+7.write the first line to a list, read the next line and compare lengths until its proper position is found and insert it to the list at that position.
+8.create 2 queues put all even lines into one and all odd lines into the other, the output the entirety of the even one first and then do the same with the odd queue.
+9.Write all lines to a USet then output a random line using a random number generator with a max of the length-1 of the uset.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
