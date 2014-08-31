@@ -63,7 +63,8 @@ reasoning. No matter what happens in the local repo, if the final part of the co
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+After forgetting to bring my USB drive, I would promptly log into the Github website and go to my repositories screen (if the computer did not already have Git installed, I would download that as well). On the repositories screen, I would select the repo I would want to work from and copy the url to which it was assigned. 
+In Git, the url can be pasted after a git clone command to copy the repo from Github to the local machine. After changing directories to the right repo, I would then be able to work on my project.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
