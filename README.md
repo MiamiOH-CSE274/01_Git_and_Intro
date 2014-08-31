@@ -58,7 +58,7 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Yes, it is okay to keep the local copy of your repo on your USB drive because this copy should be located wherever you plan to work on your project. Your local copy doesn’t need to be in any specific location, but rather the location from where you are working because you can send your progress to Github from any computer. With that being said: Yes, you can also keep your local copy on your M: drive if that is where you feel comfortable keeping it. 
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
