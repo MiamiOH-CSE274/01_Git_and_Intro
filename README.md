@@ -79,7 +79,7 @@ If the repo was pushed at the end of the last work session cloning it to the new
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
+1.2 All stacks are examples of dyck words because, much like a deck of cards, if there are no cards in the stack, a card cannot be taken away.
 
 [Your answer here]
 
