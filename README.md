@@ -72,7 +72,8 @@ In Git, the url can be pasted after a git clone command to copy the repo from Gi
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
+(1.4) In order to reverse the order of elements of a stack 's' using only a FIFO queue 'q', I would first load all the elements needed using a while loop with push(x). So, if there are five elements labeled 1, 2, 3, 4, and 5, they would show up 5, 4, 3, etc... Then, to get them to reverse order using a FIFO queue, 
+another while loop can be used to first get an element from the original stack queue and enqueue the pop(element) into the new output, thus reversing the order. The purpose of using the while loop is to keep popping elements until there are none left, so that the program accomodates for dynamic sizes. 
 
 [Your answer here]
 
