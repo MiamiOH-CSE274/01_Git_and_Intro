@@ -68,18 +68,18 @@ As long as you save your files often (which is always a good thing), the most re
 3. A for-loop iterating 42 times inputs each line or string regardless of content. After that, each line is checked to see if the length is 0. If not, ignore it and step to the next line. An integer variable will be tracking the line number from the first line index. If the length is 0, the program will output the string at the index 42 lines previous than the current integer value of the index.
 4. This program will add each input string to a queue and ouput each string, but only after checking through the queue to assure this exact line has not been input before. If it has, ignore it. No repeated line will be read more than once as any replicate will be ignored.
 5. A queue will be implemented in a similar fashion to the previous question (1.1, #4), but each line will be input as long as it is not contained in the queue already, and if it is, then output the repeated string and do not add it to the queue again. No memory will be required after outputting repeated string, so many repeats doesn't require extra memory.
-6. All lines will be input into a queue.
-7. 
-8. 
-9. 
+6. All lines will be input into a set sorted by length, then by normal sorting style (alphabetical, etc.). Each line will be checked to make sure no duplicate lines are present, and if a line is already present, dequeue it from the list. Once all lines are sorted by length then alphabetically, output them in that order.
+7. All lines will be input into a set sorted by length, then by normal sorting style (alphabetical, etc.). Duplicate lines will be placed chronologically (by order of input, FIFO) Once all lines are sorted by length then alphabetically, output them in that order.
+8. This program will read and input all lines of text. Then a for-loop will be implemented starting with zero and increasing by two each time until the iterating variable is past the number of lines. Then, another 
+9. A for-loop will be implemented to input all lines of text into an unsorted set of text lines. Next, a loop will shuffle the lines by randomly selecting a number from 0 to one less than the current number of lines of text, transferring the line to a second queue each time a number is selected. Also, when a line is transferred, the length decreases by one, so each time a new random number is drawn, it is between 0 and the current length of the original list. That way, each element in the set has an equal chance of transferring to the randomized queue each time. Once the last element has been transferred, output all lines in the newly randomized queue of lines.
 
-#### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
-
+#### 4. Your choice: Morin, Exercise 1.2
+Dyck words can never be negative. Once they are zero, another -1 cannot be set. In the same fashion, once a Stack has zero elements, the pop() operation cannot be used. The push(x) operation can be used anytime, just as how a Dyck word can always add a +1, but taking away a value (-1 and pop()) are not allowed if there is no value left (Stack has no elements or Dyck word has a value of 0).
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - 
-2. tree - 
-3. commit - 
-4. repo - 
-5. hash - 
+1. blob - A blob (contraction of binary large object) holds a file but contains no information or metadata pertaining to the file itself. Just a placeholder for a file.
+2. tree - A tree is a placeholder for a category of files and/or information. A tree can point to many connected nodes of info, files, or other (sub)trees.
+3. commit - Commit objects hold metadata including the author, committer, commit date, and log message at the instant the commit is made. A commit points to a tree object of information pertaining to a sort of snapshot of the git files being committed, saving all information in the commit at that exact moment.
+4. repo - A git repository is a database containing information about all files in the repository such as trees and tree files, as well as metadata contained in commits regarding the information in the repository at any moment the repo was committed.
+5. hash - A hash-object in Git stores [whatever data the user wishes to send] in the .git directory then returns the key associated with said data.
