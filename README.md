@@ -88,7 +88,7 @@ If I forgot to bring my USB storing the repo, I would simply use a back up copy 
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4) A simple method to reverse the order of the elements in stack s would be to pop each individual element off of stack s and immedietly enqueue it in FIFO queue q.  Next dequeue each element from q and immedietly push it onto stack s.  The resulting stack should be the reverse of the original.  
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
