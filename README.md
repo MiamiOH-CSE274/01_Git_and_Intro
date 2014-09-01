@@ -77,7 +77,7 @@ Note: You should not need to write any real computer code for any of these. Inst
 #### 5. Define/explain each of the following terms, as they relate to git.
 
 1. blob - A "blob," or "binary large object," holds a file's data but does not contain any information about the file, such as its name. Git stores information by using the hash of the data within the file and not based on the file names. Thus Git uses blobs as the base of its object store.
-2. tree - TODO
-3. commit - TODO
+2. tree - A tree object holds blob identifiers, path names, and metadata for all files in one directory. It can also reference other tree objects to build a hierarchy of files. In Git, tree objects reference blob objects and sometimes other tree objects (such as when there is a subdirectory).
+3. commit - The commit object holds data for each change to the repository. This information could include the author, commit date, and commit message. Every commit points to a tree object that represents the state of the repo at the time of the commit. Only the first commit has no parent; the rest point back to an earlier parent commit.
 4. repo - TODO
 5. hash - TODO
