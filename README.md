@@ -66,7 +66,11 @@ You can log in to github.com, where you hopefully have kept a copy of all the re
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. In this situation it would be best to use a LIFO Queue. A LIFO queue stands for Last-In-First-Out queue which means that the last element added will be the one that is next removed. This works nicely with reading in a line of text, applying a reversing operation on the text, and then printing it back out.
+2. A Deque would be appropriate for this situation because you will need to store up to 50 elements and then remove them with the removeLast() command.
+3. A Deque will also be appropriate for this situation. Elements will be stored and once a blank line is encountered the first element will have to be removed.
+4. This situation calls for the use of a USet interface. The USet interface will store unique elements in an unordered fashion. Order is not important to this situation, only  keeping duplicates out is and USet will only add an element if it is found to be unique.
+5. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
