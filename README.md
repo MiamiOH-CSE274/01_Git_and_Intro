@@ -62,7 +62,7 @@ A USB drive is an excellent location to store a copy of a repo, but it is not su
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+If I forgot to bring my USB storing the repo, I would simply use a back up copy of the repo stored on the M: drive or clone a new copy directly from the CSE 274 GitHub page.  
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
