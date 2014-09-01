@@ -66,13 +66,13 @@ As long as you submitted the last revision on your USB to GitHub you can easily 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-1.3.1 I would use the LIFO Queue to solve this problem. I would push and pop the data through the use of a loop. Since we want to make the last line of the text file printed out first, the LIFO method would be the best choice.  
+1.3.1 I would use the LIFO Queue to solve this problem. I would push and pop the data through the use of a loop. Since we want to make the last line of the text file printed out first, the LIFO method would solve the problem the best.   
 
-1.3.2 For this problem I would do something similar to the solution in 1.3.1, however I would have a counter in the loop to make sure only 50 lines of text are being reversed at a time. Once those lines are reversed more lines can be fed into the loop. This solution would also reverse any remaining lines at the end of the text file.
+1.3.2 For this problem I would do something similar to the solution in 1.3.1, however I would have a counter in the loop to make sure only 50 lines of text are being reversed at a time. Once those lines are reversed more lines can be read into the loop. This solution would also reverse any remaining lines at the end of the text file.
 
 1.3.3 I would approach this problem by using the FIFO Queue method. I would use a loop to process the first 42 lines of text and then I would read in the next line to see if it was blank. If the 43 line was blank, I would print out the first line in the queue and if it wasn’t blank, I would remove the first line in the queue. I would follow this process until the end of the text file was reached. 
 
-1.3.4 I would use a USet for this problem. I would add one line at a time to the USet and since USets don’t allow duplicates there would only be one occurrence of each individual text line. Once all lines were added, I would print the USet. 
+1.3.4 I would use a USet for this problem. I would add one line at a time to the USet and since USets don’t allow duplicates there would only be one copy of each individual text line. Once all lines were added, I would print the USet. 
 
 1.3.5 A USet would be used for this problem as well. I would start by adding the first line to the USet. Next I would add the next line to the USet and use the find(x) command to see if the second line is already present in the USet. If the line is present, I would print out the line. If the line is not present, I would add the line to the USet for comparison of later lines. 
 
@@ -88,7 +88,7 @@ As long as you submitted the last revision on your USB to GitHub you can easily 
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.2 Dyck words and the push(x)/pop() operations are similar because when you push(x) something to a Stack you are adding (+1) an element and when you pop() a Stack you are removing an element (-1). Also they are similar because you cannot pop() a Stack with no elements just as you cannot have a Dyck word if there are more -1’s then there are +1’s.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
