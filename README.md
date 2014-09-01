@@ -76,10 +76,8 @@ Note: You should not need to write any real computer code for any of these. Inst
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
+1. blob - A "blob," or "binary large object," holds a file's data but does not contain any information about the file, such as its name. Git stores information by using the hash of the data within the file and not based on the file names. Thus Git uses blobs as the base of its object store.
 2. tree - TODO
 3. commit - TODO
 4. repo - TODO
 5. hash - TODO
-
-Just testing to see if this works!
