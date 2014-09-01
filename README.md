@@ -77,6 +77,7 @@ You can log in to github.com, where you hopefully have kept a copy of all the re
 9. Use a USet interface because it stores elements in a random order.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
+1.3 In order to determine whether a string of "[],{},()" are matched correctly (as in "{[{}]}") I would send each element of the string to a single stack. Then I would make an exact copy of that stack. From there I would remove the first element of one stack and compare that to the last element removed from the copied stack. By iterating this process to the end of the stacks I could determine if a string is a matched string.
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
