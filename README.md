@@ -68,14 +68,21 @@ In Git, the url can be pasted after a git clone command to copy the repo from Gi
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+a. I would use Last in First out in this situation because after popping the last element out, it would be the first element in thus reversing the order.
+b. I would use a last in first out queue inside of a for loop to garner the first fifty elements sorted, and wrap that inside a while loop to make sure all the elements have been brought in. This woud ensure that the elements get sorted in groups of fifty, starting over at each new batch.
+c. Here would be a good choice to use a list interface, I think. After looping through the first 42 lines, a conditional statement can be used to see if an element is empty, and if it is, the set(i, x) method of the list can be used to get the element from 42 positions behind it and fill the current position.
+d. I would implement a USet in this case, and read in each element using the add(x) method of the USet (which checks for duplicates). Using conditional statements, the duplicate element can be discarded before it makes the set, so that all elements remain unique. 
+e. Although this is similar to the previous question, a SSet might be a better choice in this case because the find(x) method of the SSet interface finds the earliest occurence of the duplicate element. Once the element is found, it can be deleted, allowing room for the unique elements.
+f. Although a priority queue might seem appropriate for this question, the deleteMin() method of this interface would have to be modified to look at the contents of the data instead of just the metadata that identifies the elements. I think a safer alternative might be a SSet utilizing the compare(x, y) method in order to find the shortest string, and then sort based on that finding (like a selection sort).
+   If the sort comes accross a pair of duplicates, the compareTo element will be deleted and the compare(x, y) method will move on.
+g. I would implement the same SSet as question f, except modify the duplicate condition so that the compare(x, y) method releases the original compared element and moves on to the remaining duplicate. 
+h. Here, I would use a list interface because the get(x) method could be used in a for or while loop to first output the even numbers (start at 0, i+2 instead of i++), then the remaining elements could be reiterated through to get the odd elements.
+i. This collection could implement a USet and utilize its find(x) method. However, it must be noted that the argument within the find(x) method would be a randomly generated number using the size() method to find an appropriate range for the random numbers. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 (1.4) In order to reverse the order of elements of a stack 's' using only a FIFO queue 'q', I would first load all the elements needed using a while loop with push(x). So, if there are five elements labeled 1, 2, 3, 4, and 5, they would show up 5, 4, 3, etc... Then, to get them to reverse order using a FIFO queue, 
 another while loop can be used to first get an element from the original stack queue and enqueue the pop(element) into the new output, thus reversing the order. The purpose of using the while loop is to keep popping elements until there are none left, so that the program accomodates for dynamic sizes. 
-
-[Your answer here]
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
