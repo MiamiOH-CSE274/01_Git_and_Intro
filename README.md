@@ -57,27 +57,29 @@ Exercises
 =========
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
-
-[Your answer here]
+I suppose it is acceptable to carry around the local copy as long as you store the copy on Git, as it is held safe on the Internet even if your copy of the local files is on your flash drive. I would go as far to say as lonf as you consistently store your files on Git, your local files can stay wherever you like. As long as you don't get hacked or whatever your Git files should be safe.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
-
-[Your answer here]
+As long as you save your files often (which is always a good thing), the most recently updated version of your repository should be on Github at all times. If you log onto Github, you can clone your repo onto any device your have with you and progress from the same point.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
-
-[Your answer here]
+1. This would best be done in a stack structure, which orders elements in a LIFO format, meaning a last-in-first-out structure. If the last element to be added was to be the first to be retrieved, a LIFO structure such as Stack would be utilized. An input mechanism would append a string whenever new input was read, then the Stack would output the information.
+2. A loop would iterate 50 times, inputting a string in a Stack each iteration,  then outputting the string in a LIFO manner after each full run of the 50-iteration loop (for-loop would be easiest). Inside the for-loop would be a check to make sure there are more strings to input. If there are not, end the loop and proceed to output the strings in LIFO style.
+3. A for-loop iterating 42 times inputs each line or string regardless of content. After that, each line is checked to see if the length is 0. If not, ignore it and step to the next line. An integer variable will be tracking the line number from the first line index. If the length is 0, the program will output the string at the index 42 lines previous than the current integer value of the index.
+4. This program will add each input string to a queue and ouput each string, but only after checking through the queue to assure this exact line has not been input before. If it has, ignore it. No repeated line will be read more than once as any replicate will be ignored.
+5. A queue will be implemented in a similar fashion to the previous question (1.1, #4), but each line will be input as long as it is not contained in the queue already, and if it is, then output the repeated string and do not add it to the queue again. No memory will be required after outputting repeated string, so many repeats doesn't require extra memory.
+6. All lines will be input into a queue.
+7. 
+8. 
+9. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
-
-[Your answer here]
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - 
+2. tree - 
+3. commit - 
+4. repo - 
+5. hash - 
