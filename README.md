@@ -66,7 +66,23 @@ As long as you submitted the last revision on your USB to GitHub you can easily 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1.3.1 I would use the LIFO Queue to solve this problem. I would push and pop the data through the use of a loop. Since we want to make the last line of the text file printed out first, the LIFO method would be the best choice.  
+
+1.3.2 For this problem I would do something similar to the solution in 1.3.1, however I would have a counter in the loop to make sure only 50 lines of text are being reversed at a time. Once those lines are reversed more lines can be fed into the loop. This solution would also reverse any remaining lines at the end of the text file.
+
+1.3.3 I would approach this problem by using the FIFO Queue method. I would use a loop to process the first 42 lines of text and then I would read in the next line to see if it was blank. If the 43 line was blank, I would print out the first line in the queue and if it wasn’t blank, I would remove the first line in the queue. I would follow this process until the end of the text file was reached. 
+
+1.3.4 I would use a USet for this problem. I would add one line at a time to the USet and since USets don’t allow duplicates there would only be one occurrence of each individual text line. Once all lines were added, I would print the USet. 
+
+1.3.5 A USet would be used for this problem as well. I would start by adding the first line to the USet. Next I would add the next line to the USet and use the find(x) command to see if the second line is already present in the USet. If the line is present, I would print out the line. If the line is not present, I would add the line to the USet for comparison of later lines. 
+
+1.3.6 I would use a SSet for sorting the text lines based on length. I would read in the first line of text making that the starting standard for comparison. Then using the compare(x,y) function I would sort the rest of the text lines based on their length. 
+
+1.3.7 I think a Priority Queue would work best for this situation. I would use the same technique as the problem above, but duplicates would be allowed unlike in the SSet. 
+
+1.3.8 I would use two individual loops to complete this task. The first loop would start at 0 and increment by 2 which would print the even lines. Then the second loop would start at 1 and increment by 2 which would print the odd lines. I would store all of the lines in a list. 
+
+1.3.9 For this problem I would use just another simple list. Then I would use Math.Random() to determine a random number and print the line that corresponds to the number generated. This would ensure randomness among the lines printed to the list. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
