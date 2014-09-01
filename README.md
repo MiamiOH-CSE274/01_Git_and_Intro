@@ -58,7 +58,7 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+A USB drive is an excellent location to store a copy of a repo, but it is not sufficient to only store the repo in one location.  A USB drive could easily be lost or damaged, so it is important to have the repo backed up in multiple locations such as the M: drive.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
