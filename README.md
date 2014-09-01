@@ -70,7 +70,11 @@ You can log in to github.com, where you hopefully have kept a copy of all the re
 2. A Deque would be appropriate for this situation because you will need to store up to 50 elements and then remove them with the removeLast() command.
 3. A Deque will also be appropriate for this situation. Elements will be stored and once a blank line is encountered the first element will have to be removed.
 4. This situation calls for the use of a USet interface. The USet interface will store unique elements in an unordered fashion. Order is not important to this situation, only  keeping duplicates out is and USet will only add an element if it is found to be unique.
-5. 
+5. USet will work well for this because it has ways to manage duplicate entries. 
+6. In order to compare elements a SSet interface should be used. It will allow comparisons between the elements to determine the shortest strings.
+7. A SSet interface will be needed so that comparisons between the elements sizes can be made.
+8. A Deque should be used because of its flexibility to remove elements.
+9. Use a USet interface because it stores elements in a random order.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
