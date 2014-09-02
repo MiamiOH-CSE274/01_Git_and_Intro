@@ -58,26 +58,32 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Keeping a copy of your repo on a USB drive is fine because making changes on it will be the same as cloning a repo into your computer and making changes. Keeping it on an M: drive is even better becasue you don't have to carry it with you.
+
+
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+Continue to work from where you believed you left off and merge all of the changes later on.
 
-#### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+
+#### 3. Morin, Exercise 1.1 (p. 25). 
+
+To complete this problem, you would need to implement a stack interface. You would use pop() to remove and display the very last entry of the list each time until all the inputs in the list have been displayed.
+
+
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
+To complete excercise 1.5, you would need to implement a SSet interface. You would use the compare(x, y) function to see if two different inputs match. If so, you would then use the remove(x) function to display the duplicate if x and y are equal.
 
-[Your answer here]
+
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - "each version of a file"/it basically "holds a file's data"
+2. tree - a "level of directory information"
+3. commit - holds data for any change made in a repo
+4. repo - "a database containing all information" for a project
+5. hash - the unique name given to each object in the repo
