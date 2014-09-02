@@ -58,7 +58,7 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+[Answer?]
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
@@ -66,7 +66,15 @@ Exercises
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. For this problem you would use a Stack. You would push all the lines onto the Stack and them use the pop() operation to remove the lines in reverse order.
+2. A Stack interface would also be helpful here. The lines would be pushed onto the Stack 50 lines at a time, then you would again use the pop() operation to remove the lines in reverse order.
+3. For this problem a Queue would be useful. The Queue should hold up to 43 lines. Lines are added to the end of the queue with add(x); if a line is blank, the remove() operation would be used to then print out the line 42 lines prior to the blank one (the first one).
+4. A USet should be used here. USets do not support duplicate elements, so it would be easier with this data structure to only write the lines to the output if they are not duplicates.
+5. A USet would be helpful. Before adding a line to the set, first use find(x) to see if there is a duplicate. If there is not one, add it to the set. If there is one, print the line in the output.
+6. An SSet should be used here. The lines need to be sorted by length, but duplicates should only be printed once. The SSet does not have duplicate elements, but does have a compare(x,y) method that would be useful here when to lines have the same length and need to be ordered according to the usual "sorted order."
+7. A Queue with the priority queueing discipline would be most helpful here. Since duplicate elements do need to be printed, once all elements are in the Queue the remove() method will remove the shortest lines first, thus sorting them.
+8. Two Queues with a FIFO queueing discipline should help in this problem. Even lines should be added to an "even" queue, while odd lines can be added to a separate "odd" queue. Then the even lines can be printed first using the dequeue() operation for the "even" queue, followed by dequeueing the "odd" queue.
+9. A Dequeue interface is a good choice here. It can be randomly computed whether a each line should be added to the front or the back of the queue, thus randomizing the lines before outputting them.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
