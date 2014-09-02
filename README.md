@@ -62,7 +62,7 @@ It seems like it would be ok to keep a local copy of it on a USB drive as long a
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You should work on something that you know needs to be changed. Maybe a different class or a different function that needs to be completed. After you push these changes, they will be available to you when you get back to your room or wherever your actual copy of the repo is.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
