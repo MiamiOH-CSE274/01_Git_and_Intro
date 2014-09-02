@@ -66,7 +66,24 @@ Simply clone a new repo onto the local computer from an existing repo online.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. Queue interface because you want the elements to be in reverse order. Add all elements one at a time until no elements remain, then remove each element.
+
+2. Queue interface because you want the elements to be in reverse order. Add first 50 elements, remove all elements, repeat until no more elements to add.
+
+3. SSet interface because you need to know what string is where. Add 43 elements, continue removing 43rd element and adding elements until 1st element is 0 length, in which case return 43rd element.
+
+4. USet interface because you need to know what is there but not where it is. Add and print first element, see if next element is already in set, if not, add and print element.
+
+5. USet interface because you need to know what is there but not where it is. Add first element, add current element if it doesn't already exist in set, print current element if it does currently exist in set.
+
+6. SSet because you need to not only sort a list but make sure none are repeated. Add all unique elements, comparing to sort from smallest to largest then printing them all from smallest to largest.
+
+7. Priority queue that removes the smallest element first. Add all elements, remove all elements.
+
+8. SSet because you need to know order added.  Add all elements, remove element 0, then 1, then 2 until end is reached, then continue to remove element 0 until empty.
+
+9. USet because you need all elements to be returned in random order.  Add all elements, remove element at random from 0 to list size    
+
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
