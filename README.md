@@ -89,7 +89,8 @@ Simply clone a new repo onto the local computer from an existing repo online.
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4 
+remove element from stack s and add to queue, continue until stack s is empty.  Queue will be in reverse order from stack s. 
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
