@@ -62,11 +62,11 @@ It is okay to keep a local copy of your repo on a USB, or the M: drive as long a
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You should clone your latest repo from the origin on github to the computer in the lab then work on it there. After work is done the changes should be pushed back to the origin on github so your latest work is available for access from any computer.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
