@@ -68,7 +68,7 @@ You should work on something that you know needs to be changed. Maybe a differen
 
 1. You could do this by pushing everything that in entered onto a stack, and then popping them off one by one using a loop, displaying them as they pop off.
 2. You could create a variable that would act as a counter for the loop. As something is entered, it can be pushed onto the stack, and the counter is then increased by one. As the stack gets to 50 items, the counter % 50 will equal 0, so there could be an if statement that pops every item off of the stack and displays them.
-3.
+3. You could do this with a Queue. You could add the line to the end of the queue. If the line being added is a length of 0, you could subtract 42 and print out the line.
 4. You could create a sorted set. This would allow you to store every new item that is entered. The new input could be referenced against that sorted set, and if it is contained within the set, it will not be printed. If it is not included, it can be printed, and then added to the sorted set so that it cannot be printed again.
 5. You could create a sorted set. Using the first input, you could compare it to the next input. If it is the same as the next one, you can add it to the set, and output it. From there, the inputs can be referenced with the sorted set and if there is no reference of the input, it gets added to the set. If there exists one of the same input in the set, it gets output.
 6. You could start by writing the first line to a list. From there, all the new inputs' lengths will be compared to things in the list. If the line is the same length as a different item, a check must be made to see if they are the same thing. If they are, that item can be ignored, and the next input is evaluated.
