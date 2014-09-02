@@ -66,7 +66,7 @@ Exercises
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+To complete this problem, you would need to implement a stack interface. You would use pop() to remove and display the very last entry of the list each time until all the inputs in the list have been displayed.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
