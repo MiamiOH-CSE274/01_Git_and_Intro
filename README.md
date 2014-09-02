@@ -66,7 +66,11 @@ You should clone your latest repo from the origin on github to the computer in t
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-
+1. To accomplish this, a queue should be used to read the file then the LIFO(last in first out) interface should be used to write in the file backwards.
+2. To do this, wrap the code in a while loop that runs as long as there are more than 50 lines of code. Once there are less the remaining lines are printed out backwards using LIFO, and while there are 50 or more lines, LIFO is used once an array of 50 lines is filled using addFirst and removeFirst.
+3. A stack wrapped in an if statement that adds lines until the size is 42. Then an if statement can be used to check if a lines size() is == 0 then if true, get is used to return a line 42 spaces back by doing size()-42 as one of the get(i,x) parameters.
+4. USet and the USet add(x) should be used since add(x) for this interface only adds if x is not present. As soon as a line (or x) is a duplicate, it won't be added.
+5. A FIFO(first in first out) interface should be used to get the first line and remove the first line after.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
