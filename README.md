@@ -86,7 +86,7 @@ Simply clone a new repo onto the local computer from an existing repo online.
 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
-
+	
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
 1.4 
@@ -94,8 +94,8 @@ remove element from stack s and add to queue, continue until stack s is empty.  
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Version of a file. Contains the data but not any references to the data's name or other qualities.
+2. tree - Allows for the creation of directories. Contains information on where the blob is and reference other trees to know where itself is. 
+3. commit - Contains the changes made to the repo.
+4. repo - Holds all of the files in a project as well as all of the previous versions of the files.
+5. hash - the unique "name" git gives to each blob. 
