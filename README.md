@@ -58,11 +58,11 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Answer?]
+It is possible to keep a copy of your repo on a USB drive. However, if that is your only copy it is probably not advisable. If the USB drive is lost, the repo is lost. Keepint the local copy of the repo on the M: drive is a better choice, because a user's M: drive can be accessed from multiple computers. So if one crashes, another machine can be used and the repo is not lost.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+Assuming you have been using GitHub and using git push to keep the remote repo up to date, you can simply clone the repo onto a computer in the lab. 
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
@@ -74,7 +74,7 @@ Exercises
 6. An SSet should be used here. The lines need to be sorted by length, but duplicates should only be printed once. The SSet does not have duplicate elements, but does have a compare(x,y) method that would be useful here when to lines have the same length and need to be ordered according to the usual "sorted order."
 7. A Queue with the priority queueing discipline would be most helpful here. Since duplicate elements do need to be printed, once all elements are in the Queue the remove() method will remove the shortest lines first, thus sorting them.
 8. Two Queues with a FIFO queueing discipline should help in this problem. Even lines should be added to an "even" queue, while odd lines can be added to a separate "odd" queue. Then the even lines can be printed first using the dequeue() operation for the "even" queue, followed by dequeueing the "odd" queue.
-9. A Dequeue interface is a good choice here. It can be randomly computed whether a each line should be added to the front or the back of the queue, thus randomizing the lines before outputting them.
+9. A Dequeue interface is a good choice here. It can be randomly computed whether each line should be added to the front or the back of the queue, thus randomizing the lines before outputting them.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
