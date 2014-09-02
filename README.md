@@ -58,26 +58,44 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Having a copy of your repo on a USB drive is fine assuming when you are done working on it you commit and push your changes.  Having the ONLY copy of your repo on a USB drive is not ok and defeats the purpose of using git and github.  Keeping it on the M: drive is the same principle.  As long as it's not the only place it's ok.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+Simply clone a new repo onto the local computer from an existing repo online.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. Queue interface because you want the elements to be in reverse order. Add all elements one at a time until no elements remain, then remove each element.
+
+2. Queue interface because you want the elements to be in reverse order. Add first 50 elements, remove all elements, repeat until no more elements to add.
+
+3. SSet interface because you need to know what string is where. Add 43 elements, continue removing 43rd element and adding elements until 1st element is 0 length, in which case return 43rd element.
+
+4. USet interface because you need to know what is there but not where it is. Add and print first element, see if next element is already in set, if not, add and print element.
+
+5. USet interface because you need to know what is there but not where it is. Add first element, add current element if it doesn't already exist in set, print current element if it does currently exist in set.
+
+6. SSet because you need to not only sort a list but make sure none are repeated. Add all unique elements, comparing to sort from smallest to largest then printing them all from smallest to largest.
+
+7. Priority queue that removes the smallest element first. Add all elements, remove all elements.
+
+8. SSet because you need to know order added.  Add all elements, remove element 0, then 1, then 2 until end is reached, then continue to remove element 0 until empty.
+
+9. USet because you need all elements to be returned in random order.  Add all elements, remove element at random from 0 to list size    
+
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
-
+	
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4 
+remove element from stack s and add to queue, continue until stack s is empty.  Queue will be in reverse order from stack s. 
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Version of a file. Contains the data but not any references to the data's name or other qualities.
+2. tree - Allows for the creation of directories. Contains information on where the blob is and reference other trees to know where itself is. 
+3. commit - Contains the changes made to the repo.
+4. repo - Holds all of the files in a project as well as all of the previous versions of the files.
+5. hash - the unique "name" git gives to each blob. 
