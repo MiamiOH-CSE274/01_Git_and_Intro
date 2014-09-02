@@ -82,8 +82,8 @@ To complete excercise 1.5, you would need to implement a SSet interface. You wou
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - "each version of a file"/it basically "holds a file's data"
+2. tree - a "level of directory information"
+3. commit - holds data for any change made in a repo
+4. repo - "a database containing all information" for a project
+5. hash - the unique name given to each object in the repo
