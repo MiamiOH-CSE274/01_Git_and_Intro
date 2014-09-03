@@ -58,26 +58,26 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+It's not okay because if you make changs to the local repo and lose it before commiting and pushing, the data is lost. It is better to keep the local repo on your computer's harddrive and always push it to github.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You can clone your repo on Github to your lab computer.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+Use the LIFO (Last in First out) structure since last line of the file is to be printed first
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4 you could, for each element of Stack s, push x to s.size and pop(s.size-1). This would reverse the order of all elements in s, maybe.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Binary object data: contents of some file(s)
+2. tree - a folder, keeps track of file names
+3. commit - one version of the project
+4. repo - holds one project just what you need to build the project
+5. hash - unique code that represents repo
