@@ -66,13 +66,19 @@ As long as the most updated repo has been posted on github (as you should do eve
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1.1.1 —> To read input one line at the time, and then print in reverse order, store the lines as strings, add them using the stack push(x) function, and then pull them in reverse order from the stack (as stack is ‘Last in First Out’) using the pop() function.
+
+1.1.2 —> To read the first 50 lines in reverse order, followed by the next 50 in reverse order, use a stack, adding the first 50 lines only.  From there, pop each line off from that stack, putting them into reverse order.  Create a new stack, with the next 50 lines in order, and pop those off of that stack.  Continue this method until there is less than 50 lines, and then add the remainder to a stack of unspecified length.  Pop the data off from that stack and you are finished.
+
+1.1.3 —> Add the data to a queue until the queue reaches a size of 42.  After the queue is greater than or equal to a size of 42, add elements to the end of the queue using add(x), and remove the first using remove().  If the element you add is read as blank, print the line that was removed from the queue.
+
+1.1.4 —>  
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+[Answer here]
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
