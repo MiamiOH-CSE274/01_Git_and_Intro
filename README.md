@@ -58,26 +58,42 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+You should keep multiple copies so that it's backed up in case something were to happen to your flash drive or hard drive. One can be kept on the m drive if wanted, since it can be accessed from school and home.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+Clone another local repo from github using git.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1.1.1 For this one you'll want to use Stack because its function pop() automatically returns the last line inputed, so it is very easy to reverse the order by using stack.
+
+1.1.2 You'll want to use Stack again for this one. First reading in the first 50 lines, then using pop() to print them out in reverse order, and repeating the process until all of the lines have been read. 
+
+1.1.3 This program will want to implement the Queue interface. After reading in the first 42 lines, the next line read in will be done so using the add(x) function and then you'll remove the first one read in with the remove() function. If the line is blank, then you can use the remove function and print out whatever it returns. 
+
+1.1.4 You'll want to use a Uset interface for this program as you can tell if the line is unique when you use the add(x) function. If it returns true, then it is unique and you can find(x) and print the result. Otherwise, it is not unique and you don't need to print it.
+
+1.1.5 You can also use a Uset interface for this program. You canuse the add(x) function and if it returns true, then it was the first case of that unique line. Ohterwise it is not the first case, and you can print that line using find(x).
+
+1.1.6 You should use an SSet here, where the set is sorted by length. You can add inputs using add(x) and then since it's already sorted, just print them by using remove(x).
+
+1.1.7 You can do the same thing as in the last one, and then just keep track of how many times a duplicate exists and print it out that many times.
+
+1.1.8 You'll want to implement the Deque interface. You can use the addLast(x) method to add a line of code, then for every other line, removeLast() and print the results. Then when you're done reading all the lines, use removeFirst() and print the results until all of the lines are printed.
+
+1.1.9 You can use the Deque interface and interchangeably use addFirst(x) and addLast(x), which will put it in a random order. Then just use removeFirst() and print results.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.2 Dyck words are similar to Stack push(x) and pop() because Dyck words add 1's and then randomly remove the last 1 that they added, just like how push(x) adds an input, and then pop(0 removes the last inputed line.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - each version of a file is represented as a blob. Holds a files data but none of its metadata.
+2. tree - records blob identifiers, path names, and a bit of metadata for all of the files in one directory.
+3. commit - holds metadata for each change in the repository.
+4. repo - contains all of the information needed to retain and manage the revisions and history of a project.
+5. hash - a unique identifier for an object in the database.
