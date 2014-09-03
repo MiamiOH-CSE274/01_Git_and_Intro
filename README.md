@@ -72,7 +72,13 @@ As long as the most updated repo has been posted on github (as you should do eve
 
 1.1.3 —> Add the data to a queue until the queue reaches a size of 42.  After the queue is greater than or equal to a size of 42, add elements to the end of the queue using add(x), and remove the first using remove().  If the element you add is read as blank, print the line that was removed from the queue.
 
-1.1.4 —>  
+1.1.4 —> First, use find(x) to see if the element is already in the USet.  If it is, print the element.  This will help save on memory usage.  If it is not, use add(x) to add the element to the USet.
+
+1.1.5 —> Use a Uset.  Add the element to a Uset using add(x).
+
+1.1.6 —> Add the elements to an SSet that is sorted by length using add(x).  An SSet will already have the elements sorted from shortest to tallest so you need only print each value in the SSet using remove(x).
+
+1.1.7 —> 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
