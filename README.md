@@ -66,7 +66,23 @@ If you had pushed the current version of your repo to github before you left for
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. Add each line to the beginning of the list using push_front(line). Then, write the list to the output file.
+
+2. Declare a list of strings. While there is a next line, read the line, add line to top of list using push_front(line). If the size of the list == 50 or there is not a next line, call function to write lines in list, then clear the list.
+
+3.  Declare a list of strings. While there is a next line, read the line, add line to list. If the size of the list == 43, check to see if line 42 is empty. If true, set line 42 equal to line 0, call function to write lines in list, then clear the list. Repeat until no lines are left.
+
+4. Declare a USet. While there is a next line, add it to the USet (the USet will not add duplicates). When finished, call the function to write the USet.
+
+5. Declare a USet and a list. While there is a next line, add it to the USet. If the next line is already in the USet, add it to the list. When complete, call function to write the list.
+
+6. Declare a SSet, sorted by string length.While there is a next line, add it to the SSet (this will remove duplicates and sort by length). Starting with the set of lines with the shortest length, create a new SSet and sort by the usual sorted order and call function to write the set. Repeat until the set of lines with the max length is complete.
+
+7. Declare a list. While there is a next line, add the line to the list. Sort the list by line length. Create new list for each group of lines of equal length, starting with the group minimum line length. Then, sort the list with the usual sorted order and write the list. Repeat until list containing max length lines is complete.
+
+8. Declare two lists: evenList and oddList. Declare a counter = 0. While there is a next line, calculate counter % 2. If counter % 2 == 0, add line to evenList, else add line to oddList. Then write evenList followed by oddList.
+
+9. Declare a list of size equal to the number of lines - 1. Declare a USet of size = number of lines - 1. Then generate random integers between (0, USet size) and add them to the USet. When the Uset is filled, read each line from the text file, and add it to the corresponding index in the USet of unique random integers. Then write the list. 
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
