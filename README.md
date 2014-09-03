@@ -56,6 +56,8 @@ Homework
 Exercises
 =========
 
+Collaborated with Scott McCartney
+
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
 It is okay to carry around a USB drive with a copy of your repository as long as you have copies elsewhere, such as your M drive or on Github.
@@ -79,9 +81,9 @@ you can print the queue in the order you want.
 
 6. Sort imput line in a Sset that is organized by length with the shortest lines written first. if the two lines are of equal length, write the line that was import first.
 
-7.
+7. Keep track of the number of times a number is output, then proceed to print each element that number of times.
 
-8.
+8. 
 
 9.
 
@@ -89,7 +91,8 @@ you can print the queue in the order you want.
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+By using the pop() method in a stack, we can remove the last element in the sequence of +1s and -1s. After doing that we can add up the sum of the remaining elements to determine whether or not
+the word is a Dyck word
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
