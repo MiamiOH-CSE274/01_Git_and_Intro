@@ -58,26 +58,34 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+It is okay to keep a local copy of your repo on a USB, or the M: drive as long as after each session that results in changes to the repo, the changes are pushed to the origin.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You should clone your latest repo from the origin on github to the computer in the lab then work on it there. After work is done the changes should be pushed back to the origin on github so your latest work is available for access from any computer.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. To accomplish this, a stack should be used to read the file then the LIFO(last in first out) interface should be used to write in the file backwards.
+2. To do this, wrap the code in a while loop that runs as long as there are more than 50 lines of code. Once there are less the remaining lines are printed out backwards using LIFO, and while there are 50 or more lines, LIFO is used once an array of 50 lines is filled using addFirst and removeFirst.
+3. A queue wrapped in an if statement that adds lines until the size is 42. Then an if statement can be used to check if a lines size() is == 0 then if true, get is used to return a line 42 spaces back by doing size()-42 as one of the get(i,x) parameters.
+4. USet and the USet add(x) should be used since add(x) for this interface only adds if x is not present. As soon as a line (or x) is a duplicate, it won't be added.
+5. A FIFO(first in first out) interface should be used to get the first line and remove the first line after.
+6. SSet can be used with find(x) which returns the smallest element in the set, then the compare(x,y) method can be used if two equal length lines are found.
+7. Everything should be added to a queue, then removed by using priority queue to remove the smallest element and the removed element can then be added as it will be the smallest.
+8. A stack could be used that starts at 0 and skips a line until the end is reached. Then the remaining lines would all be even, and could all be added with another stack. 
+9. Deque can be used to add the lines to the front or back by getting a random number between 1 and 2. If 1, then addFirst(x) would be used, if 2, addLast(x) would be used.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.2 - A Dyck word can be expanded infinitely by adding 1 the same way as a stack can be expanded infinitely by adding more elements with push(x). The same applies to subtracting 1 or using pop() to remove elements. Once A Dyck word or stack is at 0 you can't subtract 1 and you can't use pop().
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Otherwise known as a "binary large object". Contains file data, but not the files name or other metadata.
+2. tree - A tree is a level in a directory. Trees record path names, identifiers, and some other metadata.
+3. commit - Commits are metadata for each particular version of a file.
+4. repo - A repo is a database that holds all of the data needed to build a particular project.
+5. hash - A hash is a 40 character value that identifies all of the information for a particular object. 
