@@ -88,8 +88,20 @@ If you had pushed the current version of your repo to github before you left for
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+Exercise 1.2 
 
+Starting from beginning of word
+while (word has next +1 or -1) {
+	get the next +1 or -1
+		add this to the stack
+}
+remove the first element from the stack (pop())
+add the remaining elements in the stack.
+	If the sum of the stack is < 0, then the word is NOT a Dyck word.
+	Else, the word IS a Dyck word.
+
+Summary: Take the word and put it into a stack. Since the last +1 or -1 is at the top of the stack remove it; the remainder is the prefix. Add the remaining values, if the sum is negative, the word is not a Dyck word. Else, the word is a Dyck word. 
+	
 #### 5. Define/explain each of the following terms, as they relate to git.
 
 1. blob - Any file in the git repo is a blob.
