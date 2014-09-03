@@ -80,7 +80,12 @@ Use what you have saved on github to continue to work on what you left off with.
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+	1.4
+
+Using a for loop, you can take the element that was entered first into the stack and make a copy of it. Then push that copy to the other end of of the stack and pop the original copy. Continue doing this until all but the last element have been moved to the other side of the stack.
+
+
+
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
