@@ -66,8 +66,23 @@ So long as you are properly and constantly maintaining your github version of yo
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. This can easily be accomplished pushing every line that you read onto the stack, and then after you have read every line, popping each line off the stack and output the line.
 
+2. You can once again push each line onto the stack, and using a loop with a counter in it. Once the counter % 50 is equal to 0 (once the counter reaches 50) pop each item off the stack and output it, repeating until complete.
+
+3. You can read each line off and store it in a queue. Once you reach 42 lines remove the 1st item from the queue, and once you reach a blank line output the first item from the queue.
+
+4. Store each item in a sorted set so that duplicate items would be removed, and as it is entered and compared against the sorted set to make sure it is unique, output it.
+
+5. Store each item in a sorted set similar to the last one, however if the item is a duplicate, output it, and if it is unique, add it to the sorted set.
+
+6. Store each item in a sorted set and output them in sorted order, comparing each item to the previous entry to check for duplicates, in which case, do not output.
+
+7. Store each item in a sorted set and simply iterate through every item in the set and output it.
+
+8. Store each line into an unsorted set, then after storing each of the lines, iterate through the even numbered lines with a loop, outputting them, then iterate through the odd numbered lines and output them.
+
+9. Store each line into an unsorted set, and after all lines are stored, use a random number generator to print off random lines. 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
