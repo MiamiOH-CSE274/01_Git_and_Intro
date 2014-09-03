@@ -58,26 +58,41 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Yes, it is okay to keep your local repo on a flash drive so long as you are keeping your repo updated and pushing all your changes back it does not matter where you store it, so the M: drive is just as viable.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+So long as you are properly and constantly maintaining your github version of your repo with commits and pushing to your github repo you can simply clone your repo to your local machine and continue to work on it.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. This can easily be accomplished pushing every line that you read onto the stack, and then after you have read every line, popping each line off the stack and output the line.
 
+2. You can once again push each line onto the stack, and using a loop with a counter in it. Once the counter % 50 is equal to 0 (once the counter reaches 50) pop each item off the stack and output it, repeating until complete.
+
+3. You can read each line off and store it in a queue. Once you reach 42 lines remove the 1st item from the queue, and once you reach a blank line output the first item from the queue.
+
+4. Store each item in a sorted set so that duplicate items would be removed, and as it is entered and compared against the sorted set to make sure it is unique, output it.
+
+5. Store each item in a sorted set similar to the last one, however if the item is a duplicate, output it, and if it is unique, add it to the sorted set.
+
+6. Store each item in a sorted set and output them in sorted order, comparing each item to the previous entry to check for duplicates, in which case, do not output.
+
+7. Store each item in a sorted set and simply iterate through every item in the set and output it.
+
+8. Store each line into an unsorted set, then after storing each of the lines, iterate through the even numbered lines with a loop, outputting them, then iterate through the odd numbered lines and output them.
+
+9. Store each line into an unsorted set, and after all lines are stored, use a random number generator to print off random lines. 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4: An easy way to reverse the order of a stack is by using a queue. Simply push all the data onto the stack, and after all the data has been pushed, pop it off into the queue, and then dequeue the data by pushing it back onto the stack, thereby reversing it.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - A "binary large object", or some variable or file that contains data but the actual structure of the data is ignored by the program.
+2. tree - An object that contains information about a level of a directory, including all the files' metadata
+3. commit - Contains data about every change to a repo, who changed it, and what they changed.
+4. repo - The main directory where a project is stored, and contains every file in the project.
+5. hash - How objects in git are named.
