@@ -66,7 +66,7 @@ You can clone your repo on Github to your lab computer.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+Use the LIFO (Last in First out) structure since last line of the file is to be printed first
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
