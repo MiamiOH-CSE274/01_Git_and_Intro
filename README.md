@@ -72,7 +72,7 @@ Use the LIFO (Last in First out) structure since last line of the file is to be 
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4 you could, for each element of Stack s, push x to s.size and pop(s.size-1). This would reverse the order of all elements in s, maybe.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
