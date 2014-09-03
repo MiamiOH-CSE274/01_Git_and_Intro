@@ -78,13 +78,17 @@ As long as the most updated repo has been posted on github (as you should do eve
 
 1.1.6 —> Add the elements to an SSet that is sorted by length using add(x).  An SSet will already have the elements sorted from shortest to tallest so you need only print each value in the SSet using remove(x).
 
-1.1.7 —> 
+1.1.7 —> Add the elements to an SSet that is sorted by length using add(x).  Keep track of the number of times each element is printed.  An SSet will already have the elements sorted from shortest to tallest so you need only print each value in the SSet using remove(x), but check to see if the element is printed more than once.  If it is, print it that number of times.
+
+1.1.8 —> Have two queues.  Add the even numbered lines to the first queue, and the odd numbered lines to the second.  Create a third queue, adding the entire contents of the first queue, followed by the second queue.
+
+1.1.9 —> Add the elements to a USet.  The elements will not be in any order, so you can remove the elements in an unordered, random order.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Answer here]
+1.1.2 —>
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
