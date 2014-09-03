@@ -53,7 +53,7 @@ Homework
 9. Once complete, send me a pull request. This is your official "turn in" of the homework, which I will grade.
 10. Double check that you did the right thing by going to https://github.com/MiamiOH-CSE274/01_Git_and_Intro/pulls and making sure that your pull request is there, and looks like you expect. Optimism is the root of all evil.
 
-Exercises
+Exercises   ***Collaborated with Gage Laufenberg
 =========
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
@@ -88,7 +88,7 @@ As long as the most updated repo has been posted on github (as you should do eve
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-1.1.2 —>
+1.1.2 —> If you add the elements to a stack by using pop(x), we can remove them in reverse order.  By popping, or using pop(), you remove the last element, leaving only the prefix of the Dyck word.  Add all the elements of the stack together using a for loop.  If the sum of the stack at that point is less than zero, the prefix sum is less than zero and the word is not a Dyck word by definition.  If the sum is greater than or equal to zero, pop() the last element off and add the sum of the stack again.  Do the same tests for the sum as before.  If you reach the first element again and the word has not been declared a non-Dyck word, we are able to say the word IS a Dyck word.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
