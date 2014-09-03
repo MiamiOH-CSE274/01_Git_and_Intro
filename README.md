@@ -77,7 +77,12 @@ Note: You should not need to write any real computer code for any of these. Inst
 #### 5. Define/explain each of the following terms, as they relate to git.
 
 1. blob - A Blob is a "Binary Large Object". Blobs do not contain any meta data.
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+2. tree - "A tree object represents one level of directory information. It records blob identifiers, path names, 
+and a bit of metadata for all the files in one directory. It can also recursively reference other (sub)tree objects
+ and thus build a complete hierarchy of files and subdirectories." ("Version Control with Git")
+3. commit - Essentially a comment made about the changes to your code. Used for knowing what was deleted and added and when.
+4. repo - A place to store projects using git
+5. hash - "Computes the object ID value for an object with specified type with the contents of the named file (which can be
+ outside of the work tree), and optionally writes the resulting object into the object database. Reports its object ID to its
+ standard output. This is used by git cvsimport to update the index without modifying files in the work tree. When <type> is 
+ not specified, it defaults to "blob"." (Found on https://www.kernel.org/pub/software/scm/git/docs/git-hash-object.html)
