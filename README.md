@@ -59,22 +59,28 @@ Exercises
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
 Yes to both. Because Git is all about freedom. A repository also contains all history and revisions of the files as well as the files themselves and a copy of the repository itself, so there is no information lost by keeping just the repository in an isolated environment like the flash drive.
-** not sure about this answer? no mention in text
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-Clone your forked repo from Github onto the lab machine and proceed as normal.
-** also not sure about this one.
+Clone your forked repo from Github onto the lab machine and proceed as normal, then push it back to the server at the end.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
-
-[Your answer here]
+1. Use a list to store all the lines as they are read in, then use a for loop that runs backwards (i = size of list, i decrementing) to write them out in reverse order.
+2. Keep track of current position in a int called pos (initialized at 0). Use a for loop with i < pos+50 to read in the 50 lines and store them in a list, then a reverse for loop like #1 counting down from array size to print them out. Both of those steps are contained in one while loop (while input source has data) it will read the 50 lines, write them in reverse, then update pos + 50 and run the whole loop again provided there are more lines to be read. 
+3. Contain all in a while input has next line loop, so that while that is true if line length > 0 it will add each line into a list as they come in. Each line read will also update a pos variable. Else if line length <= 0, print the line accessed by the index pos-42. Update pos +1 and return to the top of the loop. At the top of the loop, there is an if length of list > 42, if so remove the first element. So each time it runs, it removes the first one and adds the new one on the end. 
+4. Read input one line at a time and store in a USet, then write that USet back out using a regular for loop.
+5. Read lines one at a time and add to a list. As you read in each successive line, foreach your list to see if it already exists, if yes then write it directly to output, not to the list. Then start again with the next line, checking it and writing it to the appropriate location.
+6. While loop the input into a SSet, using a compare function that compares lengths. Then use a foreach loop to dump this into a USet, and write out that USet.
+7. Do the same thing as six, but skip the dumping into USet step.
+8. Store and add each line to a list. Use one for loop such that i =0, i <= length of list, i+2 increment, print list of i index. Then do the same for loop again but i=1, i+2, print out list[i].
+9. Read all lines consecutively into a list. I can't think of any way to randomly output all of them, I'm sorry.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.4:
+Use pop to take the last element off of the stack and use add onto the queue, doing that for all elements will result in them being in the same order as in the original stack. Then from q use remove (which will take the last one) and push it onto the stack s, and do the same with all the rest of the elements, they will end up in reversed order from the original.
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
