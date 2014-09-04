@@ -18,4 +18,6 @@ Abstract Data Type
 
 *How do you manage collections of data?*
 
-#7, sorting with duplicates -- Use a set to store both the line and the count of how many times you've seen it, then at the end print it out that many times. 
+Question 7, sorting with duplicates -- Use a set to store both the line and the count of how many times you've seen it, then at the end print it out that many times.
+
+Don't forget to go back and edit homework.
