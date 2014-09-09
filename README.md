@@ -68,7 +68,22 @@ There's a few things could do, the simplest of which to go get your USB and come
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+The following exercises should be completed by using the given data interfaces as indicated.
+1. Using a Stack (or Deque) interface, the simple filo treatment should be satisfactory.  Simply input each line of code into the Stack using add(x), then retrieve them all using remove() once they've all been added properly.
+You could also use List for this sort of thing and just perform the role of Stack but with List operations.
+2. This could be done rather complicatedly with a List interface, using Stack-like operations for each group of 50 (as described in No. 1) and Queue-like operations for to move from each group of 50.
+Alternatively, and I'm not sure if this is possible, but if you could use these interfaces as means of structuring other interfaces; you could simply create a Queue of Stacks.
+3. Using a for loop and an if clause, cycle through a List using the following convention...  For lines Xi, starting with Xi equalling the 43rd line in the List, if Xi is blank return the line in the List located at Xi-42.  
+If Xi is greater than size() the task is completed.  Otherwise, increase Xi by 1.
+4. Add and return each line 'x' to an unsorted set only if find(x) returns nil.  Otherwise, move to the next line.
+5. Return each line 'x' to an unsorted set only if find(x) returns y.  Otherwise, add(x).  At some later point, it's probably advisable to remove everything in the USet.
+6. Create or find a way to compare two lines, including a tie-breaker such as alphabetic priority.  Add each line to a sorted set and sort them using this convention, but only if find(x) returns nil.
+Otherwise, move on to the next line.  After the last line, print everything in the SSet in order.
+7. Use the exact same methodology as No. 6 except add all lines to the SSet regardless of find(x).
+8. Input each line 'x' into a List, then use a for loop to to remove(x) and output each of the even lines, then simply print and remove(x) the remaining odd lines.
+9. Add each line to an unsorted set with no regard for order, then simply remove and print each line however the unsorted set appropriates such a thing.
+
+(Note: I fear I've misinterepreted this entire exercise...! Comments and criticisims would be 100% appreciated)
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
