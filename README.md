@@ -69,6 +69,7 @@ There's a few things could do, the simplest of which to go get your USB and come
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
 The following exercises should be completed by using the given data interfaces as indicated.
+
 1. Using a Stack (or Deque) interface, the simple filo treatment should be satisfactory.  Simply input each line of code into the Stack using add(x), then retrieve them all using remove() once they've all been added properly.
 You could also use List for this sort of thing and just perform the role of Stack but with List operations.
 
