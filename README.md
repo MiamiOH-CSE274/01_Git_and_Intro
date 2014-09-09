@@ -98,7 +98,15 @@ Otherwise, move on to the next line.  After the last line, print everything in t
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+Exercise 1.4:
+
+Assume we have a filled Stack interface 's' and an empty Queue interface 'q'.  To reverse the order of the values currently in Stack s is actually rather simple.
+
+First we must remove each item from "top" to "bottom" in the Stack using pop(). We immediately take this "popped" value and throw it in the Queue using add(x) before "popping" the next value.
+
+Eventually, our Queue should be filled and our Stack should be empty.  From there we do the exact opposite to reverse the original order of the Stack by removing the values from the Queue (using remove()) and adding them to the Stack (in reverse order!) using push(x).
+
+And voila!
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
