@@ -58,26 +58,35 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Yes it is okay to keep the local copy of your repo on a USB drive, however, you should always have a backup of your repos in some other format on another device. The /M: drive would be a less ideal place to keep your repos because there may be networking problems that prevent you from accessing what is saved on the /M: drive.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+You can log in to github.com, where you hopefully have kept a copy of all the repos that you have been working on, and make a copy of the repo that you need to a lab computer.
 
 #### 3. Morin, Exercise 1.1 (p. 25). NOTE: You should not actually implement the solution with code. Instead, explain your solution using English. Pay special attention to explaining which data structure you ought to use, and why.
 
-[Your answer here]
+1. In this situation it would be best to use a LIFO Queue. A LIFO queue stands for Last-In-First-Out queue which means that the last element added will be the one that is next removed. This works nicely with reading in a line of text, applying a reversing operation on the text, and then printing it back out.
+2. A Deque would be appropriate for this situation because you will need to store up to 50 elements and then remove them with the removeLast() command.
+3. A Deque will also be appropriate for this situation. Elements will be stored and once a blank line is encountered the first element will have to be removed.
+4. This situation calls for the use of a USet interface. The USet interface will store unique elements in an unordered fashion. Order is not important to this situation, only  keeping duplicates out is and USet will only add an element if it is found to be unique.
+5. USet will work well for this because it has ways to manage duplicate entries. 
+6. In order to compare elements a SSet interface should be used. It will allow comparisons between the elements to determine the shortest strings.
+7. A priority queue will allow us to remove the smallest element.
+8. A Deque should be used because of its flexibility to remove elements.
+9. A Deque would be useful in this situation because it will allow us to access items using an index. To print the lines back in a random order we can just print the line that is contained at a randomly generated index.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-[Your answer here]
+1.3 In order to determine if a string is a matched string I would iterate through the length of the string. Each time I come to a (, {, or [ I would push the character into a stack. Whenever I come to a ), }, or ] I will pop from the stack. If the item that was just popped matches the character that I am at ( ),},] ) in the iteration then I record that. After iterating through the whole string, if all items popped from the stack were correctly matched with their opposites then the string is a matched string.
+
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
-1. blob - TODO
-2. tree - TODO
-3. commit - TODO
-4. repo - TODO
-5. hash - TODO
+1. blob - Stands for "binary large object"; A blob acts as a container for a variable or file that contains any data. It holds data but does not contain any meta-data concerning its contents.
+2. tree - An object that represents one level of directory information. It contains information about the blob identifiers, path names, and some meta-data for the files in one directory. Can recursively reference other tree objects.
+3. commit - What you do when you want to add the changes that you have made to the files contained within a repo. It is an object that holds meta-data for each change that occured.
+4. repo - A repo is the overall container for a project. It is short-hand for repository which is a database containing information needed to retain and manage the revisions and history of a project.
+5. hash - The naming convention for objects in a repo. Uses the entire contents of an object to create a 40 digit hexadecimal number that uniquely identifies that object.
