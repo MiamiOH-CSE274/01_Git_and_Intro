@@ -72,15 +72,15 @@ You can log in to github.com, where you hopefully have kept a copy of all the re
 4. This situation calls for the use of a USet interface. The USet interface will store unique elements in an unordered fashion. Order is not important to this situation, only  keeping duplicates out is and USet will only add an element if it is found to be unique.
 5. USet will work well for this because it has ways to manage duplicate entries. 
 6. In order to compare elements a SSet interface should be used. It will allow comparisons between the elements to determine the shortest strings.
-7. A SSet interface will be needed so that comparisons between the elements sizes can be made.
+7. A priority queue will allow us to remove the smallest element.
 8. A Deque should be used because of its flexibility to remove elements.
-9. Use a USet interface because it stores elements in a random order.
+9. A Deque would be useful in this situation because it will allow us to access items using an index. To print the lines back in a random order we can just print the line that is contained at a randomly generated index.
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
-1.3 In order to determine whether a string of "[],{},()" are matched correctly (as in "{[{}]}") I would send each element of the string to a single stack. Then I would make an exact copy of that stack. From there I would remove the first element of one stack and compare that to the last element removed from the copied stack. By iterating this process to the end of the stacks I could determine if a string is a matched string.
+1.3 In order to determine if a string is a matched string I would iterate through the length of the string. Each time I come to a (, {, or [ I would push the character into a stack. Whenever I come to a ), }, or ] I will pop from the stack. If the item that was just popped matches the character that I am at ( ),},] ) in the iteration then I record that. After iterating through the whole string, if all items popped from the stack were correctly matched with their opposites then the string is a matched string.
 
 
 #### 5. Define/explain each of the following terms, as they relate to git.
